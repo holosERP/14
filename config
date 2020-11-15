@@ -1,0 +1,3 @@
+limit_memory_soft = 640 * workers * 1024 * 1024
+limit_memory_hard = 768 * workers * 1024 * 1024
+workers = CPU * 2 +1
