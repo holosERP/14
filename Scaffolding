@@ -1,0 +1,22 @@
+Scaffolding
+Scaffolding is the automated creation of a skeleton structure to simplify bootstrapping (of new modules). 
+While not necessary it avoids the tedium of setting up basic structures and looking up what all starting requirements are.
+*
+El Scaffolding es la creación automatizada de una estructura de esqueleto para simplificar el arranque (de nuevos módulos). 
+Si bien no es necesario, evita el tedio de establecer estructuras básicas y buscar cuáles son todos los requisitos iniciales.
+
+for Windows env-test
+In Prompt (terminal, cmd, Powershell) with admin permisions
+*Es importante revisar la ruta de instalacion local que coincida con las carpetas del comando
+
+Estructura General
+
+"<Path_to_python.exe in the holos folder>" "<Path_to_odoo-bin>" scaffold "<Path_to_addons_folder>"
+
+Example General
+
+"c:\Program Files (x86)\Odoo 14.0\python\python.exe" "C:\Program Files (x86)\Odoo 14.0\server\odoo-bin" scaffold <module name here> "C:\Program Files (x86)\Odoo 14.0\server\odoo\addons"
+
+--
+Example Windows
+C:\odoo14\python\python.exe C:/odoo14/server/odoo-bin scaffold theme_test C:\Odoo 14.0\custom
